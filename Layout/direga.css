@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body  {
+	padding: 2;
+	color: black;
+	background-color: transparent
+	font-family: times new roman;
+	font-size: 11pt;
+	font-style: normal;
+	text-decoration: none;
+	text-align: left;
+}
+
+anglais  {
+	margin: 0; 
+	padding: 2;
+	color: red;
+	background-color: transparent;
+	font-family: times new roman;
+	font-size: 11pt;
+	font-style: normal;
+	text-decoration: none;
+	text-align: left;
+}
+
+.page #container #mainContent {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+
+#mainContent img {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+
+.page #container #sidebar1{
+	width: 1000px;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+
+#sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 150px; /* padding keeps the content of the div away from the edges */
+	height: 700px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	border: solid #804000;
+	border-width: 0px;
+	background-image: url(/Layout/Textures/MenuTabStone.jpg);
+	text-decoration: none;
+}
+
+#header {
+	background-image: url(/Layout/Textures/MenuTabStone.jpg);
+	text-align: center;
+}
+
+#footer {
+	font-size: 10px;
+	color: #FFF;
+	text-align: center;
+	background-image: url(/Layout/Textures/MenuTabStone.jpg);
+}
+
+
+#footer p {
+	font-size: 10px;
+	text-align: center;
+}
+
+#footer hr {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #960;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	margin-top: 15px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+h2 {
+	margin: 0;
+	padding: 2;
+	text-align: center;
+	font-size: 0px;
+}
+
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+}
+
+h4 {
+	font-family: Times New Roman;
+	color: black;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: bold;
+}

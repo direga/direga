@@ -24,9 +24,9 @@ anglais  {
 }
 
 .page #container #mainContent {
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-left: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-left: 50px;
 }
 
 #mainContent img {
@@ -56,12 +56,10 @@ anglais  {
 	padding-left: 10px;
 	border: solid #804000;
 	border-width: 0px;
-	background-image: url(/Layout/Textures/MenuTabStone.jpg);
 	text-decoration: none;
 }
 
 #header {
-	background-image: url(/Layout/Textures/MenuTabStone.jpg);
 	text-align: center;
 }
 
@@ -69,7 +67,6 @@ anglais  {
 	font-size: 10px;
 	color: #FFF;
 	text-align: center;
-	background-image: url(/Layout/Textures/MenuTabStone.jpg);
 }
 
 
